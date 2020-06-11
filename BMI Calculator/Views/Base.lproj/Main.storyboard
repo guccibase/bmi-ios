@@ -207,7 +207,8 @@
                         <viewLayoutGuide key="safeArea" id="wMZ-LG-Y4P"/>
                     </view>
                     <connections>
-                        <outlet property="adviceLabel" destination="r83-N3-Ash" id="sfe-XW-0GB"/>
+                        <outlet property="adviceLabel" destination="9IV-CT-mxw" id="jqh-7W-bNE"/>
+                        <outlet property="background" destination="r83-N3-Ash" id="1sm-Mc-4gb"/>
                         <outlet property="bmiLabel" destination="VU9-2W-Sd5" id="EDk-aU-16U"/>
                     </connections>
                 </viewController>

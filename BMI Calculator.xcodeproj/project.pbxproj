@@ -15,6 +15,8 @@
 		AD0B9F86230D61840065EFD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD0B9F84230D61840065EFD9 /* LaunchScreen.storyboard */; };
 		AD64359A2312D0BC00E22B00 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = AD6435992312D0BC00E22B00 /* README.md */; };
 		AF32DCD224923C8000A1F9DF /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF32DCD124923C8000A1F9DF /* ResultsViewController.swift */; };
+		AF32DCD6249256C500A1F9DF /* BMI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF32DCD5249256C500A1F9DF /* BMI.swift */; };
+		AF32DCD824925ABD00A1F9DF /* calculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF32DCD724925ABD00A1F9DF /* calculatorBrain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		AD0B9F87230D61840065EFD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AD6435992312D0BC00E22B00 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		AF32DCD124923C8000A1F9DF /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
+		AF32DCD5249256C500A1F9DF /* BMI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMI.swift; sourceTree = SOURCE_ROOT; };
+		AF32DCD724925ABD00A1F9DF /* calculatorBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = calculatorBrain.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +97,8 @@
 		AD0B9F8F230D63EA0065EFD9 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				AF32DCD724925ABD00A1F9DF /* calculatorBrain.swift */,
+				AF32DCD5249256C500A1F9DF /* BMI.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -169,9 +175,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF32DCD824925ABD00A1F9DF /* calculatorBrain.swift in Sources */,
 				AD0B9F7E230D61800065EFD9 /* CalculateViewController.swift in Sources */,
 				AD0B9F7A230D61800065EFD9 /* AppDelegate.swift in Sources */,
 				AD0B9F7C230D61800065EFD9 /* SceneDelegate.swift in Sources */,
+				AF32DCD6249256C500A1F9DF /* BMI.swift in Sources */,
 				AF32DCD224923C8000A1F9DF /* ResultsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
